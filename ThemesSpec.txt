@@ -1,0 +1,58 @@
+Every theme should be a folder that contains an Info.plist and various images.
+If the image is stretchable, it should be specified in the Info.plist, like
+this
+
+     imageName = {
+       left = 12;
+       top = 5;
+     };
+
+for an image called "imageName.png".
+
+-----------------------------------------------------------------------------
+
+    +---+ upArrow.png
+    | ^ | upArrowActive.png
+    +---+
+    |   |
+    |   | verticalTrack.png
+    |   |
+    ##### 
+    ##### verticalThumb.png
+    |   | verticalThumbActive.png
+    |   |
+    +---+
+    | v | downArrow.png
+    +---+ downArrowActive.png
+
+          horizontalTrack.png
+           |
+           |     horizontalThumb.png, horizontalThumbActive.png
+           |       |
+    +---+-------####--------+---+
+    | < |       ####        | > |
+    +---+-------####--------+---+
+      |                       |
+     leftArrow.png       rightArrow.png
+     leftArrowActive.png rightArrowActive.png
+
+     +-----+
+     | 123 | pageButton.png
+     +-----+ pageButtonActive.png
+
+                  +-------+
+        flip.png, |<      |
+  flipActive.png  |       | 
+                  |  +-+  | sel.png
+                  |  +-+  | selActive.png
+                  +-------+
+                  pane.png
+
+    
+
+    7 8 9          keypad.png,
+    4 5 6    keypadActive.png
+    1 2 3
+    0   <
+      
+
